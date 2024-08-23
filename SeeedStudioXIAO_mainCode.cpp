@@ -9,7 +9,7 @@ SoftwareSerial mySerial(rxPin, txPin);
 
 PocketSphinx sphinx;
 
-const char* keywords[] = {"stop!", "drone up", "drone down", "drone left", "drone right", "drone rotate left", "drone rotate right", "face control on", "face control off", "takeoff", "land", "come home"};
+const char* keywords[] = {"stop!", "drone up", "drone down", "drone left", "drone right", "drone rotate left", "drone rotate right", "face control on", "face control off", "takeoff", "land", "come home", "Face mode", "Button mode", "Voice mode"};
 
 void setup() {
   mySerial.begin(9600);
